@@ -6,6 +6,7 @@ body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
+
 }
 
 /* Headings */
@@ -25,7 +26,8 @@ header {
 div {
   background-color: #eae2b7;
   margin: auto;
-  width: 600px;
+  width: 700px;
+  
 }
 
 article {
@@ -79,10 +81,26 @@ hr {
 
 .group {
   display: flex;
+  flex-direction: row;
   
+}
+
+header .group {
+  align-items: center;
 }
 
 .item{
   flex: 1;
+  margin: 5px;
+  
 }
-#test
+
+.item-double{
+  flex: 2;
+  margin: 5px;
+
+}
+
+article div section p {
+  font-size: 14px;
+}
