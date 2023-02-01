@@ -104,3 +104,7 @@ header .group {
 article div section p {
   font-size: 14px;
 }
+
+ul {
+  text-align: left;
+}
